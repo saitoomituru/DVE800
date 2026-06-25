@@ -1,0 +1,35 @@
+# DVE800 依存パッケージ
+
+# Whisper
+faster-whisper>=1.0.0
+openai-whisper>=20231117  # fallback用
+
+# FAM / ベクトルDB
+chromadb>=0.5.0
+sentence-transformers>=3.0.0
+
+# 動画前処理
+auto-editor>=24.0.0
+
+# DaVinci API（Resolveインストール済み環境で有効）
+# DaVinciResolveScript はシステムPythonパスから読む
+# pip installではなくDAVINCI_MODULE_PATHで解決
+
+# MCP Server
+fastmcp>=0.1.0
+
+# 環境変数
+python-dotenv>=1.0.0
+
+# ユーティリティ
+pydantic>=2.0.0
+rich>=13.0.0  # ターミナル出力整形
+typer>=0.12.0  # CLI
+
+# テスト
+pytest>=8.0.0
+pytest-cov>=5.0.0
+pytest-asyncio>=0.23.0
+
+# 型チェック
+mypy>=1.10.0

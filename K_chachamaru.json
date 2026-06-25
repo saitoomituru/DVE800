@@ -1,0 +1,75 @@
+{
+  "speaker": "K_chachamaru",
+  "description": "ふさもふ（齋藤みつる）SFW学術・技術・神話アカウント",
+  "lexicon": {
+    "SAO": {
+      "branches": {
+        "tech_hardware": {"weight": 0.7, "signals": ["800", "OBS", "NDI", "GStreamer"]},
+        "anime_ref":     {"weight": 0.25, "signals": ["コスプレ", "ギャグ", "アニメ", "ソードアートオンライン"]},
+        "ambiguous":     {"weight": 0.05, "signals": []}
+      }
+    },
+    "DVE800": {
+      "branches": {
+        "tool": {"weight": 1.0, "signals": ["編集", "Whisper", "DaVinci", "FAM"]}
+      }
+    },
+    "OND800": {
+      "branches": {
+        "tool": {"weight": 1.0, "signals": ["NDI", "カメラ", "Pi", "Raspberry"]}
+      }
+    },
+    "FAM": {
+      "branches": {
+        "tech": {"weight": 0.85, "signals": ["Fold", "多義性", "エンベディング", "マッピング"]},
+        "pronunciation": {"weight": 0.15, "signals": []}
+      }
+    },
+    "Fold": {
+      "branches": {
+        "fam_tech": {"weight": 0.8, "signals": ["FAM", "階層", "多義性", "コンテキスト"]},
+        "origami":  {"weight": 0.1, "signals": ["折り紙"]},
+        "protein":  {"weight": 0.1, "signals": ["タンパク質", "生物"]}
+      }
+    },
+    "ゲーミング宇宙論": {
+      "branches": {
+        "original_theory": {"weight": 1.0, "signals": ["情報子", "クソゲ", "モラルハザード", "PvP", "PvE"]}
+      }
+    },
+    "情報子": {
+      "branches": {
+        "infoton_engineering": {"weight": 0.9, "signals": ["工学", "FAM", "エントロピー", "Shannon"]},
+        "general":             {"weight": 0.1, "signals": []}
+      }
+    },
+    "AQC": {
+      "branches": {
+        "tech": {"weight": 0.95, "signals": ["Quantaril", "エンベディング", "MCP", "メモリ"]},
+        "abbreviation_other": {"weight": 0.05, "signals": []}
+      }
+    },
+    "SphereOS": {
+      "branches": {
+        "tech": {"weight": 1.0, "signals": ["FAM", "人格", "観測", "OS層"]}
+      }
+    },
+    "ZeroRoomLab": {
+      "branches": {
+        "lab": {"weight": 1.0, "signals": ["山形", "古民家", "高畠", "OSS"]}
+      }
+    }
+  },
+  "corrections": {
+    "DVE800": ["DBE800", "ディーブイイー800", "デビー800"],
+    "OND800": ["ON800", "オンド800", "オーエヌディー"],
+    "SAO800": ["サオ800", "さお800"],
+    "ZeroRoomLab": ["ゼロルームラボ", "ゼロルームラブ", "ゼロルーム"],
+    "ふさもふ": ["ふさもう", "フサモフ", "ふさもふ"],
+    "FAM": ["ファム", "ファーム"],
+    "ゲーミング宇宙論": ["ゲーミング宇宙ろん", "ゲームング宇宙論"],
+    "情報子工学": ["情報士工学", "情報子工額"],
+    "高畠": ["高畑", "たかはた"],
+    "Quantaril": ["クワンタリル", "カンタリル"]
+  }
+}

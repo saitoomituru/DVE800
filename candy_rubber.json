@@ -1,0 +1,34 @@
+{
+  "speaker": "candy_rubber",
+  "description": "飴守みゃう NSFWラバー汗フェチアカウント",
+  "lexicon": {
+    "ラバー": {
+      "branches": {
+        "fetish_material": {"weight": 0.9, "signals": ["汗", "フェチ", "衣装", "ラテックス"]},
+        "rubber_general":  {"weight": 0.1, "signals": ["消しゴム", "タイヤ"]}
+      }
+    },
+    "汗": {
+      "branches": {
+        "fetish": {"weight": 0.8, "signals": ["ラバー", "ラテックス", "密閉"]},
+        "exercise": {"weight": 0.2, "signals": ["運動", "スポーツ"]}
+      }
+    },
+    "飴守みゃう": {
+      "branches": {
+        "persona": {"weight": 1.0, "signals": ["candy", "rubber", "NSFW"]}
+      }
+    },
+    "衣装": {
+      "branches": {
+        "self_made_rubber": {"weight": 0.8, "signals": ["ラバー", "ラテックス", "自作"]},
+        "cosplay_general": {"weight": 0.2, "signals": ["コスプレ"]}
+      }
+    }
+  },
+  "corrections": {
+    "ラバー": ["ラバ", "らば"],
+    "ラテックス": ["ラテクス", "ラテック"],
+    "飴守みゃう": ["飴守みやう", "あめもりみゃう"]
+  }
+}
