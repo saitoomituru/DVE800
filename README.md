@@ -79,7 +79,7 @@ Adobe Animation Composerを技術UXの参照点とする。ただしAnimation Co
 
 ### FAM多義性マップとは
 
-話者のSNS投稿群から、語彙がどのジャンル・文脈で使われているかを抽出したJSON構造体です。
+話者のSNS投稿群から、語彙がどのジャンル・文脈で使われているかを抽出したJSON構造体です。これは仮
 
 ```json
 {
